@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-garamond: "EB Garamond";
+  --font-pacifico: "Dancing Script", cursive;
+}
