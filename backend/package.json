@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudh2705/shopping-wooping-e-com-mern.git"
+  },
+  "author": "Anirudh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudh2705/shopping-wooping-e-com-mern/issues"
+  },
+  "homepage": "https://github.com/anirudh2705/shopping-wooping-e-com-mern#readme",
+  "description": "",
+  "dependencies": {
+    "backend": "file:",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "shoping-wooping": "file:",
+    "shoping-wooping-backend": "file:"
+  }
+}
