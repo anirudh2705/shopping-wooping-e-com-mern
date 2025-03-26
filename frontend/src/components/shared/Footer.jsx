@@ -8,7 +8,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="border-t py-12 mx-10 ">
-      <div className="container grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0 mx-auto  ml-12">
+      <div className="container grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0 mx-auto lg:ml-12">
         <div>
           <h3 className="text-lg font-bold text-gray-800 mb-4">Newsletter</h3>
           <p className=" text-gray-500 mb-4">
