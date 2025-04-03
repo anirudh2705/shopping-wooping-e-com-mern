@@ -20,7 +20,7 @@ const NewArrivals = () => {
       ],
     },
     {
-      _id: 1,
+      _id: 2,
       name: "Product 1",
       price: 100,
       image: [
@@ -28,7 +28,7 @@ const NewArrivals = () => {
       ],
     },
     {
-      _id: 1,
+      _id: 3,
       name: "Product 1",
       price: 100,
       image: [
@@ -36,7 +36,7 @@ const NewArrivals = () => {
       ],
     },
     {
-      _id: 1,
+      _id: 4,
       name: "Product 1",
       price: 100,
       image: [
@@ -44,7 +44,7 @@ const NewArrivals = () => {
       ],
     },
     {
-      _id: 1,
+      _id: 5,
       name: "Product 1",
       price: 100,
       image: [
@@ -52,7 +52,7 @@ const NewArrivals = () => {
       ],
     },
     {
-      _id: 1,
+      _id: 6,
       name: "Product 1",
       price: 100,
       image: [
@@ -60,51 +60,11 @@ const NewArrivals = () => {
       ],
     },
     {
-      _id: 1,
+      _id: 7,
       name: "Product 1",
       price: 100,
       image: [
         { url: "https://picsum.photos/500/500?random=7", altText: "Stylish" },
-      ],
-    },
-    {
-      _id: 1,
-      name: "Product 1",
-      price: 100,
-      image: [
-        { url: "https://picsum.photos/500/500?random=8", altText: "Stylish" },
-      ],
-    },
-    {
-      _id: 1,
-      name: "Product 1",
-      price: 100,
-      image: [
-        { url: "https://picsum.photos/500/500?random=9", altText: "Stylish" },
-      ],
-    },
-    {
-      _id: 1,
-      name: "Product 1",
-      price: 100,
-      image: [
-        { url: "https://picsum.photos/500/500?random=10", altText: "Stylish" },
-      ],
-    },
-    {
-      _id: 1,
-      name: "Product 1",
-      price: 100,
-      image: [
-        { url: "https://picsum.photos/500/500?random=11", altText: "Stylish" },
-      ],
-    },
-    {
-      _id: 1,
-      name: "Product 1",
-      price: 100,
-      image: [
-        { url: "https://picsum.photos/500/500?random=12", altText: "Stylish" },
       ],
     },
   ];
@@ -205,7 +165,7 @@ const NewArrivals = () => {
               draggable="false"
             />
             <div className=" absolute bottom-0 left-0 right-0 backdrop-blur-md text-white p-4 rounded-b-lg">
-              <Link to={`/products/${product._id}`} className="block">
+              <Link to={`/product/${product._id}`} className="block">
                 <h4 className="font-medium">{product.name}</h4>
                 <p className="mt-1">${product.price}</p>
               </Link>
