@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
+import Collections from "./pages/Collections";
+import ProductDetails from "./components/products/ProductDetails";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="collections/:collection" element={<Collections />} />
+          <Route path="product/:id" element={<ProductDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>
