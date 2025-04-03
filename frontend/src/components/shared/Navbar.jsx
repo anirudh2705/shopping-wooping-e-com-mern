@@ -30,7 +30,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="space-x-6 hidden md:flex ">
-          <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
+          <Link
+            to="collections/all"
+            className="text-gray-700 hover:text-black text-sm font-medium uppercase"
+          >
             men
           </Link>
           <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
