@@ -7,6 +7,7 @@ import SearchBar from "./SearchBar";
 import CartDrawer from "../layout/CartDrawer";
 import { IoMdClose } from "react-icons/io";
 import MobileNavDrawer from "../layout/MobileNavDrawer";
+import { ModeToggle } from "../ModeToggle";
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -46,7 +47,8 @@ const Navbar = () => {
             bottom wear
           </Link>
         </div>
-        <div className="flex item-center justify-center align-middle space-x-4 ">
+        <div className="flex item-center justify-center space-x-4 ">
+          <ModeToggle />
           <SearchBar />
           <Link to={"/"} className="hover:text-black">
             <FaRegUser className="h-6 w-6 text-gray-700" />
