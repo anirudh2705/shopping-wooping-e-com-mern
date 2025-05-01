@@ -12,6 +12,7 @@ import Checkout from "./components/cart/Checkout";
 import OrderConfirmation from "./pages/OrderConfirmation";
 import OrderDetails from "./pages/OrderDetails";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import MyOrders from "./pages/MyOrders";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="checkout" element={<Checkout />} />
             <Route path="/order-confirmation" element={<OrderConfirmation />} />
             <Route path="/order/:id" element={<OrderDetails />} />
+            <Route path="/my-orders" element={<MyOrders />} />
           </Route>
         </Routes>
       </BrowserRouter>
